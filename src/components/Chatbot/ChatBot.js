@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
-import { FiMessageSquare, FiSend, FiX, FiUser, FiCpu } from "react-icons/fi";
-import products from "../../data/products"; 
+import { MessageSquare, Send, X, User, Cpu } from "lucide-react";
+import products from "../../data/products";
 
 function normalize(text) {
   return removeVietnameseTones(text).toLowerCase().trim();
@@ -84,7 +84,7 @@ const ChatBotFloating = () => {
             className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white rounded-full w-16 h-16 shadow-lg hover:shadow-xl flex items-center justify-center transform hover:scale-110 transition-all duration-300 animate-pulse"
             onClick={() => setOpen(true)}
           >
-            <FiMessageSquare size={28} />
+            <MessageSquare size={28} />
           </button>
           <div className="absolute bottom-full right-0 mb-2 px-3 py-1 bg-gray-800 text-white text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
             Hỏi Edutech AI
@@ -99,7 +99,7 @@ const ChatBotFloating = () => {
           <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-4 flex items-center justify-between rounded-t-2xl">
             <div className="flex items-center space-x-3">
               <div className="w-10 h-10 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
-                <FiCpu size={20} />
+                <Cpu size={20} />
               </div>
               <div>
                 <h3 className="font-bold text-lg">Edutech AI</h3>
@@ -107,7 +107,7 @@ const ChatBotFloating = () => {
               </div>
             </div>
             <button onClick={() => setOpen(false)} className="p-2 hover:bg-white hover:bg-opacity-20 rounded-full transition-colors duration-200">
-              <FiX size={20} />
+              <X size={20} />
             </button>
           </div>
 
@@ -121,7 +121,7 @@ const ChatBotFloating = () => {
                       ? "bg-gradient-to-r from-blue-500 to-blue-600"
                       : "bg-gradient-to-r from-purple-500 to-purple-600"
                   }`}>
-                    {msg.role === "user" ? <FiUser size={16} /> : <FiCpu size={16} />}
+                    {msg.role === "user" ? <User size={16} /> : <Cpu size={16} />}
                   </div>
                   <div className={`px-4 py-3 rounded-2xl shadow-sm whitespace-pre-line ${
                     msg.role === "user"
@@ -138,7 +138,7 @@ const ChatBotFloating = () => {
               <div className="flex justify-start">
                 <div className="flex items-start space-x-2">
                   <div className="w-8 h-8 bg-gradient-to-r from-purple-500 to-purple-600 rounded-full flex items-center justify-center text-white">
-                    <FiCpu size={16} />
+                    <Cpu size={16} />
                   </div>
                   <div className="bg-white border border-gray-200 px-4 py-3 rounded-2xl rounded-tl-md shadow-sm">
                     <div className="flex items-center space-x-1">
@@ -172,7 +172,7 @@ const ChatBotFloating = () => {
                 disabled={loading || !input.trim()}
                 className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 disabled:from-gray-400 disabled:to-gray-500 text-white px-4 py-3 rounded-xl flex items-center justify-center transition-all duration-200 transform hover:scale-105 disabled:hover:scale-100 shadow-lg disabled:shadow-none"
               >
-                <FiSend size={18} />
+                <Send size={18} />
               </button>
             </div>
           </div>
