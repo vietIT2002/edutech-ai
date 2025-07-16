@@ -30,7 +30,7 @@ const ProductModal = ({ product, onClose, onAddToCart }) => {
         {/* Header */}
         <div className="flex items-center justify-between px-4 py-3 border-b border-gray-200 bg-white sticky top-0 z-10">
           <h2 className="text-base font-semibold text-gray-900 truncate pr-4">
-            Chi tiết sản phẩm
+            Chi tiết khóa học
           </h2>
           <button
             onClick={onClose}
@@ -92,10 +92,6 @@ const ProductModal = ({ product, onClose, onAddToCart }) => {
                     </span>
                   )}
 
-                </div>
-                <div className="flex items-center gap-2 text-sm text-green-600">
-                  <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                  <span>Còn hàng</span>
                 </div>
               </div>
 
