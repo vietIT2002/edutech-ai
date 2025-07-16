@@ -57,12 +57,12 @@ const ProductCard = ({ product, onViewDetail }) => {
 
           <div className="flex items-center gap-2 mt-1">
             <span className="text-orange-600 font-bold text-base">
-              {product.price.toLocaleString()} đ
+              ₫{product.price.toLocaleString()}
             </span>
             {product.Originalprice > product.price && (
               <>
                 <span className="text-sm line-through text-gray-400">
-                  {product.Originalprice.toLocaleString()} đ
+                  ₫{product.Originalprice.toLocaleString()} 
                 </span>
                 <span className="text-xs bg-red-100 text-red-600 px-1.5 py-0.5 rounded font-medium">
                   -{Math.round(((product.Originalprice - product.price) / product.Originalprice) * 100)}%

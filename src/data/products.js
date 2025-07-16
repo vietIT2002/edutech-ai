@@ -4,7 +4,7 @@ const products = [
     name: "The Ultimate React Course 2025: React, Next.js, Redux & More",
     price: 309000,
     Originalprice: 400000,
-    image: "/assets/images01.jpg",
+    image: "/assets/photocard/images01.jpg",
     category: "Lập trình website",
     shortDescription: "Master modern React from beginner to advanced! Next.js, Context API, React Query, Redux, Tailwind, advanced patterns",
     description: `
@@ -27,7 +27,7 @@ const products = [
     name: "Master JavaScript, HTML, and CSS with 30 Projects in 30 Days",
     price: 1200000,
     Originalprice: 1800000,
-    image: "/assets/images02.jpg",
+    image: "/assets/photocard/images02.jpg",
     category: "Lập trình website",
     shortDescription: "Learn JavaScript 30 Projects, HTML, and CSS Complete 30 Projects in 30 Days for Beginners 30 Projects in 30 Days",
     description: `
@@ -52,7 +52,7 @@ const products = [
     name: "The Ultimate React Course 2025: React, Next.js, Redux & More",
     price: 309000,
     Originalprice: 450000,
-    image: "/assets/images03.jpg",
+    image: "/assets/photocard/images03.jpg",
     category: "Lập trình website",
     shortDescription: "Master modern React from beginner to advanced! Next.js, Context API, React Query, Redux, Tailwind, advanced patterns",
     description: `
@@ -78,7 +78,7 @@ const products = [
     name: "Aprende MySQL sin dolor (con phpMyAdmin)",
     price: 300900,
     Originalprice: 510000,
-    image: "/assets/images04.jpg",
+    image: "/assets/photocard/images04.jpg",
     category: "Lập trình website",
     shortDescription: "En este curso aprenderás a manejar esta base de datos, con más de 6 millones de instalaciones en el mundo.",
     description: `
@@ -103,7 +103,7 @@ const products = [
     name: "AI AUTOMATION IN BUSINESS",
     price: 2309000,
     Originalprice: 2900000,
-    image: "/assets/images05.jpg",
+    image: "/assets/photocard/images05.jpg",
     category: "AI",
     shortDescription: "Generative AI, AI automation, Create GenAI Chatbot, Learn ChatGPT, LLM, Start Your Generative AI, LLM, Prompt",
     description: `
@@ -128,7 +128,7 @@ const products = [
     name: "Artificial Intelligence A-Z 2025: Agentic AI, Gen AI, and RL",
     price: 439000,
     Originalprice: 507000,
-    image: "/assets/images06.jpg",
+    image: "/assets/photocard/images06.jpg",
     category: "AI",
     shortDescription: "Combine the power of Agentic AI, Generative AI, Reinforcement Learning to create powerful AI for Real-World applications",
     description: `
@@ -154,7 +154,7 @@ const products = [
     name: "The AI Engineer Course 2025: Complete AI Engineer Bootcamp",
     price: 279000,
     Originalprice: 340000,
-    image: "/assets/images07.jpg",
+    image: "/assets/photocard/images07.jpg",
     category: "AI",
     shortDescription: "Complete AI Engineer Training: Python, NLP, Transformers, LLMs, LangChain, Hugging Face, APIs",
     description: `
@@ -181,7 +181,7 @@ const products = [
     name: "Data Science & AI Masters 2025 - From Python To Gen AI",
     price: 279000,
     Originalprice: 380000,
-    image: "/assets/images08.jpg",
+    image: "/assets/photocard/images08.jpg",
     category: "AI",
     shortDescription: "Master Data Science and AI: Learn Python, EDA, Stats, SQL, Machine Learning, NLP, Deep Learning and Gen AI",
     description: `
@@ -207,7 +207,7 @@ const products = [
     name: "Advanced Brand Theory for Marketing",
     price: 279000,
     Originalprice: 440000,
-    image: "/assets/images09.jpg",
+    image: "/assets/photocard/images09.jpg",
     category: "Marketing",
     shortDescription: "Unlock psychological drivers and strategies to build lasting brand equity...",
     description: `
@@ -232,7 +232,7 @@ const products = [
     name: "SEO Training: Complete SEO Course & ChatGPT SEO Copywriting",
     price: 429000,
     Originalprice: 557000,
-    image: "/assets/images10.jpg",
+    image: "/assets/photocard/images10.jpg",
     category: "Marketing",
     shortDescription: "SEO Guide: SEO Copywriting, Content Marketing, SEO Link Building, ChatGPT SEO, WordPress SEO, WooCommerce SEO, Local SEO",
     description: `
@@ -258,7 +258,7 @@ const products = [
     name: "Facebook Ads & Facebook Marketing MASTERY 2025 | Coursenvy",
     price: 279000,
     Originalprice: 392000,
-    image: "/assets/images11.jpg",
+    image: "/assets/photocard/images11.jpg",
     category: "Marketing",
     shortDescription: "Facebook Marketing from beginner to advanced! Join 218,000+ students who MASTERED Facebook and are Facebook Ads experts!",
     description: `
@@ -283,7 +283,7 @@ const products = [
     name: "SEO Strategy 2025. SEO training to Unleash Career Potential!",
     price: 299000,
     Originalprice: 306000,
-    image: "/assets/images12.jpg",
+    image: "/assets/photocard/images12.jpg",
     category: "Marketing",
     shortDescription: "Become an expert in Search Engine Optimization. Master the best SEO tools and take a chance to land your dream job!",
     description: `
@@ -308,7 +308,7 @@ const products = [
     name: "User Experience Design Essentials - Adobe XD UI UX Design",
     price: 389000,
     Originalprice: 412000,
-    image: "/assets/images13.jpg",
+    image: "/assets/photocard/images13.jpg",
     category: "Design",
     shortDescription: "Use XD to get a job in UI Design, User Interface, User Experience design, UX design & Web Design",
     description: `
@@ -333,7 +333,7 @@ const products = [
     name: "Cinema 4D Complete : Vol. 3 Unleash the power of Mograph!",
     price: 279000,
     Originalprice: 340000,
-    image: "/assets/images14.jpg",
+    image: "/assets/photocard/images14.jpg",
     category: "Design",
     shortDescription: "Enter the world of Motion Design",
     description: `
@@ -358,7 +358,7 @@ const products = [
     name: "Graphic Design Masterclass - Learn GREAT Design",
     price: 509000,
     Originalprice: 710000,
-    image: "/assets/images15.jpg",
+    image: "/assets/photocard/images15.jpg",
     category: "Design",
     shortDescription: "The Ultimate Graphic Design Course Which Covers Photoshop, Illustrator, InDesign, Design Theory, Branding, Logo Design",
     description: `
@@ -383,7 +383,7 @@ const products = [
     name: "Canva Master Course 2025 | Learn Canva with Ronny",
     price: 309000,
     Originalprice: 406000,
-    image: "/assets/images16.jpg",
+    image: "/assets/photocard/images16.jpg",
     category: "Design",
     shortDescription: "Master Canva's Latest AI and Design Tools and Create Stunning Graphics, Videos, and Websites with an Ex-Canva Employee",
      description: `
@@ -408,7 +408,7 @@ const products = [
     name: "Fundamentals of Business Analysis",
     price: 419000,
     Originalprice: 540700,
-    image: "/assets/images17.jpg",
+    image: "/assets/photocard/images17.jpg",
     category: "Business",
     shortDescription: "Get the foundation in business analysis you need to solve your organization's biggest problems.",
     description: `
@@ -433,7 +433,7 @@ const products = [
     name: "PMP Certification Exam Prep 35 PDU Project Management Course",
     price: 459000,
     Originalprice: 601000,
-    image: "/assets/images18.jpg",
+    image: "/assets/photocard/images18.jpg",
     category: "Business",
     shortDescription: "Complete PMP Certification Course - Get 35 PDUs/Contact Hours - PMP 2025 Exam Training - PMBOK 7 - Project Management",
     description: `
@@ -454,11 +454,34 @@ const products = [
     review: 50,
   },
   {
-    id: 19,
+  id: 19,
+  name: "CAPM Certification Training: Certified Associate in Project Management",
+  price: 399000,
+  Originalprice: 550000,
+  image: "/assets/photocard/images27.jpg",
+  category: "Business",
+  shortDescription: "Prepare for the CAPM® Certification Exam - Learn PMBOK Framework and Project Management Essentials",
+  description: `
+  This course is designed to help you pass the CAPM® Certification Exam and build a strong foundation in project management. It covers the principles and processes from the latest PMBOK® Guide and includes practice questions.
+  You will learn:
+  - Understand the basics of project management and the PMBOK® framework.
+  - Learn the 10 Knowledge Areas and 5 Process Groups.
+  - Get introduced to Agile and hybrid project management practices.
+  - Prepare for the CAPM exam with quizzes and mock tests.
+  - Gain practical knowledge to manage small projects effectively.
+  - Build confidence to start a career in project management.
+  Perfect for students, entry-level project managers, and professionals seeking PMI's CAPM certification.
+    `,
+    rating: 4.2,
+    student: 980,
+    review: 40,
+  },
+  {
+    id: 20,
     name: "Fundamentals of Analyzing Real Estate Investments",
     price: 329000,
     Originalprice: 402000,
-    image: "/assets/images19.jpg",
+    image: "/assets/photocard/images19.jpg",
     category: "Business",
     shortDescription: "Learn professional investment analysis techniques for real estate investing in residential and commercial propertiese",
     description: `
@@ -479,11 +502,11 @@ const products = [
     review: 68,
   },
   {
-    id: 20,
+    id: 21,
     name: "Investing In Stocks The Complete Course! (17+ Hours)",
     price: 449000,
     Originalprice: 540000,
-    image: "/assets/images20.jpg",
+    image: "/assets/photocard/images20.jpg",
     category: "Business",
     shortDescription: "Master Stock Market Investing & Trading in the Stock Market. Top 1% Instructor & Millionaire Investor. Invest & Trade!",
     description: `
@@ -504,11 +527,11 @@ const products = [
     review: 670,
   },
   {
-    id: 21,
+    id: 22,
     name: "Complete English Course: Master English Beginner to Advanced",
     price: 299000,
     Originalprice: 370000,
-    image: "/assets/images21.jpg",
+    image: "/assets/photocard/images21.jpg",
     category: "English",
     shortDescription: "Learn how to have a natural conversation FAST from a native English speaker!",
     description: `
@@ -529,11 +552,11 @@ const products = [
     review: 1126,
   },
   {
-    id: 22,
+    id: 23,
     name: "English Speaking Complete: English Language Mastery",
     price: 469000,
     Originalprice: 640000,
-    image: "/assets/images22.jpg",
+    image: "/assets/photocard/images22.jpg",
     category: "English",
     shortDescription: "Complete English Language Fluency: Master Speaking, Grammar, Vocabulary, Writing and More [Beginner to Advanced]",
     description: `
@@ -554,11 +577,11 @@ const products = [
     review: 2318,
   },
   {
-    id: 23,
+    id: 24,
     name: "English Writing Skills",
     price: 449000,
     Originalprice: 560200,
-    image: "/assets/images23.jpg",
+    image: "/assets/photocard/images23.jpg",
     category: "English",
     shortDescription: "Master Stock Market Investing & Trading in the Stock Market. Top 1% Instructor & Millionaire Investor. Invest & Trade!",
     description: `
@@ -578,11 +601,11 @@ const products = [
     review: 1310,
   },
   {
-    id: 24,
+    id: 25,
     name: "English Course for Spanish Speakers: Improve Your Speaking",
     price: 449000,
     Originalprice: 640100,
-    image: "/assets/images24.jpg",
+    image: "/assets/photocard/images24.jpg",
     category: "English",
     shortDescription: "Improve your ability to speak and understand English by Practicing with many English sentences and phrases.",
     description: `
@@ -601,6 +624,30 @@ const products = [
     student: 2010,
     review: 57,
   },
+  {
+    id: 26,
+    name: "English Pronunciation Mastery for Spanish Speakers",
+    price: 389000,
+    Originalprice: 520000,
+    image: "/assets/photocard/images25.jpg",
+    category: "English",
+    shortDescription: "Master English pronunciation and speak clearly with confidence.",
+    description: `
+    This course focuses on helping Spanish speakers master the sounds of English. You will learn how to pronounce tricky vowels and consonants, practice stress and intonation, and reduce your accent for better communication.
+    You will learn:
+    - Correct pronunciation of difficult English sounds for Spanish speakers.
+    - Techniques to reduce your Spanish accent.
+    - Practice with tongue twisters, minimal pairs, and phonetic drills.
+    - Improve your listening skills to distinguish similar sounds.
+    - Speak more fluently and naturally in conversations.
+    - Gain confidence through speaking exercises and feedback.
+    Perfect for learners who want to sound more like native speakers and improve clarity in everyday speech.
+    `,
+    rating: 4.5,
+    student: 1740,
+    review: 84,
+  },
+
 
 ];
 

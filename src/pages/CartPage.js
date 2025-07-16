@@ -120,7 +120,7 @@ const CartItem = ({ item, onDelete, isSelected, onSelect }) => {
           </h3>
           <div className="flex items-center gap-2">
             <span className="text-xl font-bold text-blue-600">
-              {item.price.toLocaleString()} đ
+              ₫{item.price.toLocaleString()}
             </span>
             <span className="bg-blue-50 text-blue-600 px-2 py-1 rounded-full text-xs font-medium">
               Course
@@ -175,14 +175,14 @@ const OrderSummary = ({ cartItems, total }) => (
     <div className="space-y-3">
       <div className="flex justify-between text-sm">
         <span className="text-gray-600">Khóa học ({cartItems.length})</span>
-        <span className="text-gray-900">{total.toLocaleString()} đ</span>
+        <span className="text-gray-900">₫{total.toLocaleString()}</span>
       </div>
       
       <div className="border-t pt-3">
         <div className="flex justify-between items-center">
           <span className="text-lg font-semibold text-gray-900">Tổng cộng</span>
           <span className="text-xl font-bold text-blue-600">
-            {total.toLocaleString()} đ
+            ₫{total.toLocaleString()}
           </span>
         </div>
       </div>
